@@ -22,7 +22,8 @@ try {
     $duplicateFinder->attachProcessor(new FilesizeProcessor());
     $duplicateFinder->attachProcessor(new HashProcessor('adler32'));
     $duplicateFinder->attachProcessor(new HashProcessor('md5'));
-    $duplicateFinder->attachProcessor(new HashProcessor('crc32'));
+    // You can run any number of hash processors against different algorithms
+//    $duplicateFinder->attachProcessor(new HashProcessor('crc32'));
     $duplicates = $duplicateFinder->run();
 
     // Now you are free to deal with $duplicates. Sure, I can save it to the file

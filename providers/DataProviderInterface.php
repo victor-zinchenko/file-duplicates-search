@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * DataProviderInterface
  * @author luke
  */
 interface DataProviderInterface
