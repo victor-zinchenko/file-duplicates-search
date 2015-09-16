@@ -1,2 +1,2 @@
-/home/luke/Documents/4
-/home/luke/Documents/1
+/var/www/test/scandir/1
+/var/www/test/scandir/4
