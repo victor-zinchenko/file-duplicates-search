@@ -1,2 +1,0 @@
-/var/www/test/scandir/1
-/var/www/test/scandir/4

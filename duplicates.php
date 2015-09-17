@@ -34,6 +34,8 @@ try {
     file_put_contents('duplicates.txt', $text);
 
     echo 'Success: duplicates paths written to duplicates.txt'. PHP_EOL;
+    $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
+    echo 'time: '. $time. PHP_EOL;;
 
 } catch (Exception $e) {
     echo 'Message: ' . $e->getMessage() . PHP_EOL;
